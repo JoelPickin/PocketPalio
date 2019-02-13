@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace PocketPalio.ViewModels
 {
-	public class DashboardPageViewModel : BindableBase
+	public class DashboardViewModel : BindableBase
 	{
-        public DashboardPageViewModel()
+        public DashboardViewModel()
         {
 
         }
