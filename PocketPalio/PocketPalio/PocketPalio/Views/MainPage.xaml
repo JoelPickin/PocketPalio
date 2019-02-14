@@ -5,7 +5,7 @@
              Title="{Binding Title}">
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <ProgressBar BackgroundColor="HotPink" ProgressColor="Teal" Progress="0.5"/>
     </StackLayout>
 
 </ContentPage>
