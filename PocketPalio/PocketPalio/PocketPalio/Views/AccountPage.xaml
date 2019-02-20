@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PocketPalio.Views.AccountPage">
+  <StackLayout>
+      <StackLayout Height="50" VerticalOptions="Start" BackgroundColor="LightGray">
+          <Label Text="100g" HorizontalOptions="Start" HorizontalTextAlignment="Start" 
+                 VerticalOptions="Center" VerticalTextAlignment="Center"/>
+          <Label Text="5 Gems" HorizontalOptions="End" HorizontalTextAlignment="End" 
+                 VerticalOptions="Center" VerticalTextAlignment="Center"/>
+          <ProgressBar ProgressColor="HotPink" Progress="0.7" VerticalOptions="End"/>
+      </StackLayout>
+  </StackLayout>
+</ContentPage>

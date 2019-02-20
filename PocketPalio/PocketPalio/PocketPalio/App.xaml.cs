@@ -30,7 +30,12 @@ namespace PocketPalio
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
-            containerRegistry.RegisterForNavigation<Dashboard, DashboardViewModel>();
+            containerRegistry.RegisterForNavigation<DashboardPage, DashboardPageViewModel>();
+            containerRegistry.RegisterForNavigation<CharacterPage, CharacterPageViewModel>();
+            containerRegistry.RegisterForNavigation<WardrobePage, WardrobePageViewModel>();
+            containerRegistry.RegisterForNavigation<GamePage, GamePageViewModel>();
+            containerRegistry.RegisterForNavigation<AccountPage, AccountPageViewModel>();
+            containerRegistry.RegisterForNavigation<GoalPage, GoalPageViewModel>();
         }
     }
 }

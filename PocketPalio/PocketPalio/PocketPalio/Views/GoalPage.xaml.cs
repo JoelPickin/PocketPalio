@@ -2,9 +2,9 @@
 
 namespace PocketPalio.Views
 {
-    public partial class Dashboard : TabbedPage
+    public partial class GoalPage : ContentPage
     {
-        public Dashboard()
+        public GoalPage()
         {
             InitializeComponent();
         }
